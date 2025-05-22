@@ -1,0 +1,175 @@
+body {
+    font-family: "Outfit";
+    background-color: white;
+}
+
+.text1 {
+    color: #bdbec7;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -40px;
+}
+.text2 {
+    color: #666edbc2;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulaire_container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 17px;
+}
+
+.formulaire hr {
+    border: none;
+    width: 120PX;
+    height: 5px;
+    background-color: #666edbd3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.p_connexion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 127, 127);
+    margin-left: -10px;
+   
+
+ }
+
+ .p_connexion .p_lien {
+    color: #666edbd3;
+    text-decoration: none;
+
+ }
+
+ .p_connexion .p_lien:hover {
+
+    color: rgb(15, 125, 198);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.4s ease 0s;
+ }
+
+ .p_inscription {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(131, 127, 127);
+    
+ }
+
+ .p_inscription .p_lien {
+    color: #666edbd3;
+    text-decoration: none;
+ }
+
+
+
+
+.img {
+    width: 150px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.input_field {
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500px;
+    background-color: rgba(217, 226, 240, 0.676);
+    color: rgb(11, 11, 11);
+    border-radius: 10px;
+}
+.formulaire .button {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #666edbe1;
+    cursor: pointer;
+}
+
+.formulaire .button:hover {
+    color: #666edbe1 ;
+    background-color: white;
+    border: 3px solid #666edbe1;
+    transition: all 0.4s ease 0s;
+}
+.title {
+    font-weight: 1000px;
+    color: rgb(90, 90, 175);
+    font-size: 40px;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:800px) {
+    .title {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .svg {
+
+        width: 380px;
+    }
+
+    .p_connexion {
+        margin-right: -18px;
+        position: relative;
+    }
+
+    .side_.formulaire .input_field {
+        width: 10px;
+    }
+    .formulaire {
+        gap: 16px;
+    }
+    .formulaire_container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+    .input_field {
+        width: 80vw;
+        padding-left: 20px;
+    }
+
+
+    .formulaire .button {
+
+        margin-left: 85px;
+
+    }
+
+    .text1 {
+        
+        margin-left: -0px;
+        
+       
+
+    }
+    .text2 {
+        margin-left: 20px;
+    }
+}
